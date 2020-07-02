@@ -3,7 +3,7 @@
 [![ThemeSupportExpress](https://circleci.com/gh/zunamidev/ThemeSupportExpress.svg?style=svg)](https://circleci.com/gh/zunamidev/ThemeSupportExpress)
 
 ### Description
-This is my first nodeJS project I'm working on its to build up my skill. It will become updates which will change the coding style and methods. I appreciate feedback.
+This is my first nodeJS project I'm working on its to build up my skill. It will become updates which will change the coding style and methods. I appreciate your feedback.
 
 ### How to use it?
 #### Step 1
