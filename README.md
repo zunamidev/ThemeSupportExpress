@@ -1,6 +1,6 @@
 # Wordpress like themes !Work in progress!
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
-[![ThemeSupportExpress](https://circleci.com/gh/zunamidev/ThemeSupportExpress.svg?style=svg)](https://circleci.com/gh/zunamidev/ThemeSupportExpress)
+[![NPM](https://nodei.co/npm/theme-support-express.png?mini=true)](https://nodei.co/npm/theme-support-express/)
 
 ### Description
 This is my first nodeJS project I'm working on its to build up my skill. It will become updates which will change the coding style and methods. I appreciate your feedback.
