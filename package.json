@@ -1,19 +1,22 @@
 {
-  "name": "@zunamidev/WaveThemes",
-  "version": "1.0.0",
+  "name": "theme-support-express",
+  "version": "1.0.0-1",
   "description": "",
+  "main": "src/app.js",
+  "keywords": ["express", "themes"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zunamidev/ThemeSupportExpress.git"
+  },
   "scripts": {
     "test": "jest"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "app-root-path": "^3.0.0",
     "chalk": "^4.1.0",
-    "esm": "^3.2.25",
     "figlet": "^1.4.0",
-    "find": "^0.3.0",
-    "findit": "^2.0.0",
     "get-dir-children-names": "^1.0.2",
     "inquirer": "^7.2.0"
   },

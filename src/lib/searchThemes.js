@@ -13,18 +13,18 @@ class searchThemes {
       let finalData = JSON.parse(rawData);
       finalData['dir'] = dirs;
       data.push(finalData);
+
       data.forEach((res) => {
         if (res.active) {
           res['main'] = `${res.dir}/${res.main}`;
           result.push(res);
         } else {
-         result.push({})
+          return false;
         }
       });
     });
-    return data;
+    return result;
   }
 }
 
 module.exports = searchThemes;
-
