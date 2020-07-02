@@ -1,0 +1,24 @@
+{
+  "name": "@zunamidev/WaveThemes",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "@zunamidev/WaveThemes": "bin/create-theme",
+    "create-theme": "bin/create-theme"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "chalk": "^4.1.0",
+    "esm": "^3.2.25",
+    "figlet": "^1.4.0",
+    "find": "^0.3.0",
+    "findit": "^2.0.0",
+    "get-dir-children-names": "^1.0.2",
+    "inquirer": "^7.2.0"
+  }
+}
