@@ -6,6 +6,6 @@ const searchTheme = require('./lib/searchThemes');
 const res = new searchTheme()
 
 res.getThemeInformation(appRoot, 'themes').then((r) => {
-  console.log(r.main)
+  console.log(r)
 });
 
