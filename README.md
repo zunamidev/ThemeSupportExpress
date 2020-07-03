@@ -1,7 +1,7 @@
 # Wordpress like themes !Work in progress!
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
-[![NPM](https://nodei.co/npm/theme-support-express.png?mini=true)](https://nodei.co/npm/theme-support-express/)
-![Node.js Package](https://github.com/zunamidev/ThemeSupportExpress/workflows/Node.js%20Package/badge.svg)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/zunamidev/ThemeSupportExpress/graphs/commit-activity)
+[![Maintenance](https://img.shields.io/npm/v/theme-support-express?color=green&logo=npm)](https://GitHub.com/zunamidev/ThemeSupportExpress/pulls)
+[![Maintenance](https://img.shields.io/badge/Prs-Welcome-green)](https://GitHub.com/zunamidev/ThemeSupportExpress/pulls)
 
 ### Description
 This is my first nodeJS project that I'm working on. It's to build up my skill. It will get some updates, which will change the coding style and methods. I appreciate your feedback.
