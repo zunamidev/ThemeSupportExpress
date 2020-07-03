@@ -3,8 +3,7 @@
 [![NPM](https://nodei.co/npm/theme-support-express.png?mini=true)](https://nodei.co/npm/theme-support-express/)
 
 ### Description
-This is my first nodeJS project I'm working on its to build up my skill. It will become updates which will change the coding style and methods. I appreciate your feedback.
-
+This is my first nodeJS project that I'm working on. It's to build up my skill. It will get some updates, which will change the coding style and methods. I appreciate your feedback.
 ### How to use it?
 #### Step 1
 Add a new static direction in your ExpressJS app, which should look like this:
