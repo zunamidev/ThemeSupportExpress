@@ -1,6 +1,7 @@
 # Wordpress like themes
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
-[![NPM](https://nodei.co/npm/theme-support-express.png?mini=true)](https://nodei.co/npm/theme-support-express/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green.svg)](https://github.com/zunamidev/ThemeSupportExpress/pulls)
+[![Current version]( https://img.shields.io/npm/v/theme-support-express?color=green&logo=npm)](https://www.npmjs.com/package/theme-support-express)
 
 ### Description
 This is my first nodeJS project that I'm working on. It's to build up my skill. It will get some updates, which will change the coding style and methods. I appreciate your feedback.
