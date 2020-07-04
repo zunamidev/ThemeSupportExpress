@@ -39,7 +39,6 @@ Like this.
 ```javascript
 routes/index.js
 
-const searchTheme = new searchTheme();
 searchTheme.getThemeInformation(appRoot, 'themes').then((r) => {
     res.render('index', { style: r.main });
 });

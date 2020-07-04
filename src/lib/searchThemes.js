@@ -31,4 +31,4 @@ async function getThemeInformation(root, search) {
   return result;
 }
 
-module.exports = searchThemes;
+module.exports = getThemeInformation;
