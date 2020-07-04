@@ -38,9 +38,10 @@ Like this.
 #### Step 3
 ```javascript
 routes/index.js
+const searchTheme = require('theme-support-express');
 
-searchTheme.getThemeInformation(appRoot, 'themes').then((r) => {
-    res.render('index', { style: r.main });
+searchTheme(appRoot, 'themes').then((r) => {
+  res.render('index', { style: r[0].main });
 });
 ```
 
