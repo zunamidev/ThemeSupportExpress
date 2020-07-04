@@ -1,12 +1,16 @@
 'use strict';
 
+/**
+ * Broken file need to repair;
+ */
+
 const fs = require('fs');
-const find = require('find');
 
 const inquire = require('inquirer');
 const chalk = require('chalk');
 const figlet = require('figlet');
 const appRoot = require('app-root-path');
+const findPath = require('get-dir-children-names');
 
 function init() {
   console.log(
@@ -23,13 +27,13 @@ function init() {
 function deleteCLI() {
   let data = [];
 
-  find.dir(`${appRoot.path}/themes`, function(dirs) {
-    for (let i = 0; i < dirs.length; i++) {
-      let rawData = fs.readFileSync(`${dirs[i]}/theme.json`);
-      let finalData = JSON.parse(rawData);
-      data.push(finalData.name);
-    }
-    inquire.prompt([
+  const res = findPath(appRoot, `themes`);
+  res.forEach((dirs) => {
+    let rawData = fs.readFileSync(`${appRoot}/themes/${dirs}/theme.json`);
+    let finalData = JSON.parse(rawData);
+    data.push(finalData.name);
+  });
+  inquire.prompt([
       {
         type: 'list',
         message: 'Which theme you want to delete?:',
@@ -51,7 +55,6 @@ function deleteCLI() {
         }
       }
     });
-  })
 }
 
 function createCLI() {
