@@ -1,9 +1,12 @@
 {
   "name": "theme-support-express",
-  "version": "1.0.0-4",
+  "version": "1.0.0-5",
   "description": "",
   "main": "src/app.js",
-  "keywords": ["express", "themes"],
+  "keywords": [
+    "express",
+    "themes"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zunamidev/ThemeSupportExpress.git"
@@ -13,14 +16,14 @@
   },
   "author": "",
   "license": "MIT",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "app-root-path": "^3.0.0",
     "chalk": "^4.1.0",
+    "eslint": "^7.4.0",
     "figlet": "^1.4.0",
     "get-dir-children-names": "^1.0.2",
-    "inquirer": "^7.2.0"
-  },
-  "devDependencies": {
+    "inquirer": "^7.2.0",
     "jest": "^26.1.0"
   }
 }

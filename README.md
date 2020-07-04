@@ -38,11 +38,13 @@ Like this.
 #### Step 3
 ```javascript
 routes/index.js
+const appRoot = require('app-root-path');
+const getThemeInformation = require('./lib/searchThemes');
 
-const searchTheme = new searchTheme();
-searchTheme.getThemeInformation(appRoot, 'themes').then((r) => {
-    res.render('index', { style: r.main });
+getThemeInformation(appRoot, 'themes').then((r) => {
+  res.render('index', { style: r.main });
 });
+
 ```
 
 ```ejs
