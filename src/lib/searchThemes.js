@@ -25,3 +25,4 @@ async function getThemeInformation(root, search) {
 }
 
 module.exports = getThemeInformation;
+

@@ -1,7 +1,13 @@
 .idea
+.vscode
 
 node_modules
 
 .DS_Store
 
 src/t.js
+yarn.lock
+
+
+src/lib/NPM-Lib.code-workspace
+src/.eslintrc.js
