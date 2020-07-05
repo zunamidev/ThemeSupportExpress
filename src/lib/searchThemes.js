@@ -10,8 +10,8 @@ async function getThemeInformation(root, search) {
   res.forEach(dirs => {
     let rawData = fs.readFileSync(`${root}/${search}/${dirs}/theme.json`);
     let finalData = JSON.parse(rawData);
-    finalData['main'] = `${dirs}/${finalData.main}`;
     finalData["dir"] = dirs;
+    finalData['main'] = `${dirs}/${finalData.main}`;
     data.push(finalData);
 
     data.forEach((res) => {
