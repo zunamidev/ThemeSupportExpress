@@ -1,5 +1,4 @@
 .idea
-.vscode
 
 node_modules
 
@@ -10,4 +9,3 @@ yarn.lock
 
 
 src/lib/NPM-Lib.code-workspace
-src/.eslintrc.js

@@ -1,3 +1,3 @@
-const getThemeInformation = require('./lib/searchThemes.js');
+const getThemeInformation = require('./lib/searchThemes.js')
 
-module.exports = getThemeInformation;
+module.exports = getThemeInformation
