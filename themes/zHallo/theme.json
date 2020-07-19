@@ -1,1 +1,6 @@
-{ "name": "zHallo", "author": "zunami", "main": "main.css", "active": true }
+{
+  "name": "zHallo",
+  "author": "zunami",
+  "main": "main.css",
+  "active": true
+}
