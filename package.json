@@ -1,0 +1,19 @@
+{
+  "name": "theme-support-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zunamidev/ThemeSupportExpress.git"
+  },
+  "author": "zunami",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zunamidev/ThemeSupportExpress/issues"
+  },
+  "homepage": "https://github.com/zunamidev/ThemeSupportExpress#readme"
+}
